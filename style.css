@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 0 25px 0;
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-left: 30px;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 250px;
+    position: absolute;
+    margin-top: 1px;
+    background-color: rgb(252, 248, 248);
+    border-radius: 5px;
+    /* padding:10px; */
+    flex-direction: column;
+    border: 0.5px solid silver;
+}
+
+.dropdown-content a {
+    margin: 6px;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: slategrey;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+hr {
+    border-top: 0.5px solid silver;
+}
+
+#proposal {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+#proposal:hover {
+    background-color: rgb(34, 33, 33);
+}
+
+.home {
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    padding: 50px;
+    max-width: 50%;
+}
+
+.right {
+    max-width: 50%;
+}
+
+.home-content {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 40px;
+    color: rgb(58, 52, 52);
+}
+
+.home-content p {
+    margin-bottom: 30px;
+}
+
+#proposal_2 {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+}
+
+#proposal_2:hover {
+    background-color: rgb(34, 33, 33);
+}
+
+.rocket {
+    width: 500px;
+    margin: 30px;
+}
+
+.companies {
+    min-height: 100px;
+    background-color: rgb(233, 233, 233);
+}
+
+.company-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.expertise{
+    margin: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-1,.card-2,.card-3{
+    width: 300px;
+    height: 250px;
+    margin:10px;
+    padding: 30px;
+}
+footer{
+    background-color: lightblue;
+}
+.foot h3{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
